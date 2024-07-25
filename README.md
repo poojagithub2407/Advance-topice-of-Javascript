@@ -11,11 +11,12 @@
 array.slice(begin[, end])
 
 
-### `Splice()`
+### `splice()`
 
-**Definition:**The splice() method changes the contents of an array by removing, replacing, or adding elements in place. It modifies the original array and returns the removed elements as a new array.
+**Definition:** The `splice()` method changes the contents of an array by removing, replacing, or adding elements in place. It modifies the original array and returns the removed elements as a new array.
 
 **Syntax:**
 ```javascript
 array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
+
 
