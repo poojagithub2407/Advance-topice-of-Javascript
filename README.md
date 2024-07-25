@@ -47,4 +47,49 @@ array.map(callback(currentValue[, index[, array]])[, thisArg])
 **syntax**
 
 ```javascript
-array.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])```
+array.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])
+```
+
+### filter()
+
+**Defitition:** The filter() method creates a new array with all elements that pass the test implemented by the provided function. It does not modify the original array.
+
+**Syntax**
+
+```javascript
+array.filter(callback(element[, index[, array]])[, thisArg])
+```
+
+### find()
+
+**Defintion:** The find() method returns the first element in the array that satisfies the provided testing function. If no elements satisfy the testing function, it returns undefined. Unlike filter(), which returns an array, find() returns a single element.
+
+**Syntax:**
+
+```javascript
+array.find(callback(element[, index[, array]])[, thisArg])
+
+```
+
+
+### some()
+
+**Defintion:** The some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if at least one element passes the test, and false otherwise. The method does not modify the original array.
+
+**Syntax:**
+
+```javascript
+array.some(callback(element[, index[, array]])[, thisArg])
+```
+
+### every()
+
+
+**Defintion:**The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns true if all elements pass the test, and false otherwise. The method does not modify the original array.
+
+**Syntax:**
+
+```javascript
+array.every(callback(element[, index[, array]])[, thisArg])
+
+```
