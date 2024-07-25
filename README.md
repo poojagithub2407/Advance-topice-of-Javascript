@@ -12,9 +12,9 @@ array.slice(begin[, end])
 
 ### `splice()`
 
-**\*Definition:**The `splice()` method changes the contents of an array by removing, replacing, or adding elements in place. It modifies the original array and returns the removed elements as a new array.
+**Definition:** The `splice()` method changes the contents of an array by removing, replacing, or adding elements in place. It modifies the original array and returns the removed elements as a new array.
 
-**\*Syntax:**
+**Syntax:**
 
 ```javascript
 array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
@@ -22,7 +22,7 @@ array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
 
 ### forEach()
 
-**Defintion:**Executes a provided function once for each array element. It performs an action for every element and does not return a new array.
+**Defintion:** Executes a provided function once for each array element. It performs an action for every element and does not return a new array.
 
 **Syntax:**
 
@@ -32,7 +32,7 @@ array.forEach(callback(element[, index[, array]])[, thisArg])
 
 ### Map()
 
-**Definition:**Creates a new array with a provided function on every element in the original array. It does not modify the original array.
+**Definition:** Creates a new array with a provided function on every element in the original array. It does not modify the original array.
 
 **Syntax:**
 
@@ -42,7 +42,7 @@ array.map(callback(currentValue[, index[, array]])[, thisArg])
 
 ### reducer()
 
-**Definition:**he reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+**Definition:** The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
 
 **syntax**
 
