@@ -1,17 +1,19 @@
-//remove element 
-let array1 = [1, 2, 3, 4, 5];
-let removed = array1.splice(1, 2);
-console.log('removed element:', removed);
-console.log('new array', array1);
+//removing element
 
-//replace element
+const array=[1,2,3,4,5,6];
+const removed=array.splice(2,2);
+console.log('removed elememt:',removed);
+console.log('array elemnt:' ,array);
 
-let  array2=[1,2,3,5,6];
-array2.splice(1,1,'a','b');
-console.log('new array:',array2);
+//Adding element
 
-//adding element without removing
+const array2=[23,34,56,57];
+array2.splice(2,0,'x','y');
+console.log('array2 is',array2);
 
-let array3=[1,2,3,4,5];
-array3.splice(3,0,'c','d','e','f');
+
+//replacing element
+
+const array3=[12,23,45,67];
+array3.splice(1,2,'x','y');
 console.log(array3);
