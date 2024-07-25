@@ -11,6 +11,7 @@
 array.slice(begin[, end])
 
 
+
 ### `splice()`
 
 **Definition:** The `splice()` method changes the contents of an array by removing, replacing, or adding elements in place. It modifies the original array and returns the removed elements as a new array.
